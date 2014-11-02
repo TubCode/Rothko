@@ -4,7 +4,7 @@ namespace Rothko
 {
     public class DialogFacade : IDialogFacade
     {
-        public SaveDialogResult ShowSaveFileDialog(string filterPattern)
+        private SaveDialogResult ShowSaveFileDialog(string filterPattern)
         {
             var dialog = new SaveFileDialog()
             {
