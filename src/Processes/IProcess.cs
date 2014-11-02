@@ -4,11 +4,6 @@ using System.IO;
 
 namespace Rothko
 {
-    /// <summary>
-    /// Used to wrap the .NET <see cref="System.Diagnostics.Process"/> class. 
-    /// For now, this only wraps what we need from that class and not EVERYTHING. 
-    /// Add things as you need them.
-    /// </summary>
     public interface IProcess : IDisposable
     {
         event DataReceivedEventHandler OutputDataReceived;
